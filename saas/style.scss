@@ -7,8 +7,8 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #F14E95 !default;
-$brand-secondary: #118DF0 !default; 
+$brand-primary: #fff !default;
+$brand-secondary: #051f2c !default; 
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -151,7 +151,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-	color: $brand-black;
+	color: $brand-primary;
 	font-family: $font-primary;
 	font-weight: 400;
 	margin: 0 0 20px 0;
@@ -985,7 +985,7 @@ form {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
 	display: block;
-	color: rgba($brand-white,1);
+	color: rgba($brand-e,1);
     /* amounts and words */
 }
 
