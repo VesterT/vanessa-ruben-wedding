@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #fff;
+  color: #828282;
   background: #fff;
 }
 
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li.has-dropdown .dropdown li a {
   padding: 2px 0;
   display: block;
-  color: #cb4646;
+  color: #999999;
   line-height: 1.2;
   text-transform: none;
   font-size: 15px;
