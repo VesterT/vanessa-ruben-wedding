@@ -458,6 +458,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/jquery.raptorize.2.0.min.js"></script>
+	<script src="js/cornify.js"></script>
 
 
 	<script>
@@ -483,10 +484,9 @@
 			kkeys.push(e.keyCode);
 			if (kkeys.toString().indexOf(konami) >= 0) {
 				$(document).unbind('keydown', arguments.callee);
-				$.getScript('http://www.cornify.com/js/cornify.js', function () {
-					cornify_add();
-					$(document).keydown(cornify_add);
-				});
+				cornify_add();
+				$(document).keydown(cornify_add);
+
 			}
 		});
 	</script>
